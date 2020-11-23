@@ -8,7 +8,8 @@
 
 }
 body{
-    font-family: 'Cabin', sans-serif
+    font-family: 'Cabin', sans-serif;
+    margin: 0px ;
 }
 hr{
     margin: 2rem 0rem;
@@ -30,7 +31,7 @@ hr{
 /* links */
 .link{
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 
@@ -107,6 +108,8 @@ navigation */
 }
 
 .hero .hero-heading{
+    text-align:center;
+    padding-top: 1rem;
     color: var(--dark-gray)
 }
 
@@ -127,4 +130,28 @@ section */
 
 .ow{
     background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-left-radius:1rem;
+    border-bottom-right-radius:1rem;
+
+}
+.footer .footer-header{
+    padding-bottom: 0.5rem;
+
+}
+
+.footer .link {
+    color:white;
+}
+/* 
+remember if you finf the pixel issues moving here and there you can adjust this by below commands */
+.footer ul{
+    padding-inline-start: 0px;
 }
