@@ -41,17 +41,25 @@
         link</a>
 
     <hr>
-    <h2>Alists</h2>
+    <h2>@lists</h2>
     <h3>unorderd list</h3>
+    <p>this list will not have bullet</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item one </li>
         <li>Item two</li>
         <li>Item three</li>
     </ul>
+    <h3>unordered inline list</h3>
+
+    
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item one </li>
+        <li class="list-item-inline">Item two</li>
+        <li class="list-item-inline">Item three</li>
 
     <h3>Reverse  ordered list</h3>
-    <ol>
+    <ol reversed >
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -61,19 +69,18 @@
     <hr>
      
     <h2>@nav</h2>
-    <nav>
-        <ul>
-            <li>
-                <a href="/">home</a>
-
+    <nav class="navigation">
+        <div class="nav-brand">I AM BRAND</div>
+        <ul class="list-non-bullet nav-pills ">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            <li>
-                <a href="/"> about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/"> about</a>
             </li>
-
         </ul>
     </nav>
 
