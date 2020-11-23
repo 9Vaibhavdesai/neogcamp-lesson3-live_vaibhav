@@ -4,3 +4,9 @@ body{
     font-family: 'Cabin', sans-serif
 }
 
+/**container**/
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem
+}
