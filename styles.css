@@ -39,8 +39,10 @@ hr{
 .link-primary{
     background-color:var(--primary-color);
     border-radius:0.5rem;
-    color:white
+    color:white;
+    
 }
+
 
 .link-secondary{
     color:var(--primary-color);
@@ -70,7 +72,6 @@ navigation */
      background-color:var(--primary-color);
      color:white;
      border-bottom-left-radius:1rem;
-     border-top-right-radius:1rem;
 
 
 }
@@ -80,6 +81,7 @@ navigation */
      
 }
 .navigation .nav-brand{
+    padding: 1rem;
     font-weight:bold;
     font-size:1.1rem;
 }
@@ -97,6 +99,7 @@ navigation */
 
 .hero {
     padding:2rem;
+    padding-top:5rem;
 
 }
 
@@ -130,6 +133,7 @@ section */
 
 .ow{
     background-color: var(--off-white);
+    font-weight: medium;
 }
 
 /* footer */
@@ -144,6 +148,8 @@ section */
 }
 .footer .footer-header{
     padding-bottom: 0.5rem;
+    font-weight:bold;
+    font-size:large;
 
 }
 
@@ -154,4 +160,12 @@ section */
 remember if you finf the pixel issues moving here and there you can adjust this by below commands */
 .footer ul{
     padding-inline-start: 0px;
+}
+
+
+.section .hero-heading{
+    text-align:center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    font-weight:bold;
 }
