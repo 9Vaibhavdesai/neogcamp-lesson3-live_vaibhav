@@ -174,3 +174,8 @@ spacebelow */
 .spacebelow{
     padding-bottom: 1rem;
 }
+/* 
+blogimage */
+.blogimage {
+    max-width:350px;
+}
