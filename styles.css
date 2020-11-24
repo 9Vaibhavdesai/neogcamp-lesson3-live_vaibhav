@@ -3,9 +3,8 @@
 :root{
     --primary-color: #EF4444;
     --dark-gray:#6B7280;
-    --off-white:#F3F4F6
-    ;
-
+    --off-white:#FEF2F2;
+    /* #F3F4F6 */
 }
 body{
     font-family: 'Cabin', sans-serif;
@@ -178,4 +177,24 @@ spacebelow */
 blogimage */
 .blogimage {
     max-width:350px;
+}
+/* 
+blockquote */
+.blockline .blockquote {
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.blockline {
+    border-left:7px solid var(--primary-color);
+    padding-left: 1rem;
+    
+}
+
+.githublinks {
+    color:var(--primary-color);
 }
