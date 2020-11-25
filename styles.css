@@ -103,7 +103,7 @@ navigation */
 }
 
 .hero .hero-img {
-    max-width: 400px;
+    max-width: 300px;
     display:block;
     margin:auto;
 
@@ -177,6 +177,7 @@ spacebelow */
 blogimage */
 .blogimage {
     max-width:350px;
+    height:auto;
 }
 /* 
 blockquote */
