@@ -208,6 +208,7 @@ blockquote */
     display:block;
     margin:auto;
     padding:2rem;
+    padding-left: 1rem;
     padding-top:1rem;
     
 }
