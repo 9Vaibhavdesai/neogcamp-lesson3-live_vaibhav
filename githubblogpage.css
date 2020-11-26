@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px ;
+}
 :root{
     --primary-color: #EF4444;
     --dark-gray:#6B7280;
     --off-white:#FEF2F2;
     /* #F3F4F6 */
-}
-body{
-    font-family: 'Cabin', sans-serif;
-    margin: 0px ;
 }
 hr{
     margin: 0.5rem 0rem;
@@ -23,6 +25,7 @@ hr{
 .container-center{
     max-width:
     600px;
+    font-size: 20px;
 
     margin:auto;
 }
@@ -198,4 +201,13 @@ blockquote */
 
 .githublinks {
     color:var(--primary-color);
+}
+
+.commandprompt-img{
+    max-width:30rem;
+    display: block;
+    margin: auto;
+    padding:2rem;
+    padding-top:1rem;
+    width: 25rem;
 }
