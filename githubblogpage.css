@@ -204,10 +204,11 @@ blockquote */
 }
 
 .commandprompt-img{
-    max-width:30rem;
-    display: block;
-    margin: auto;
+    max-width: 300px;
+    display:block;
+    margin:auto;
     padding:2rem;
     padding-top:1rem;
-    width: 25rem;
+    
 }
+
